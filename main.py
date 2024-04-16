@@ -309,14 +309,14 @@ def main_menu(message):
             parse_mode="HTML",
             reply_markup=base_keyboard_reply_markup(message.from_user.id))
 
-    elif message.text.lower() == 'jail check settings':
+    elif message.text.lower() in ['jail check settings', '/settings']:
         state[message.chat.id] = States.S_MONITORING
         bot.send_message(
             message.chat.id,
             'Enter a validator moniker',
             reply_markup=MONITORING_KEYBOARD)
 
-    elif message.text.lower() in ['search', '/search']:
+    elif message.text.lower() in ['search a content in bostrom', '/search']:
         state[message.chat.id] = States.S_SEARCH
         bot.send_message(
             message.chat.id,
