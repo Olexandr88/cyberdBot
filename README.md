@@ -1,7 +1,7 @@
 # cyberdBot [t.me/cyberdbot](https://t.me/cyberdbot)  
 Telegram bot for creation cyberLinks on the cyberd knoledge graph, upload content to IPFS and monitoring [cyberd](https://github.com/cybercongress/cyberd/) node status data
 ## Install
-Install [IPFS node](https://docs-beta.ipfs.io/install/command-line-quick-start/)  
+Install [IPFS node](https://docs.ipfs.tech/install/ipfs-desktop/)
 Install [cyberd node](https://cybercongress.ai/docs/cyberd/run_validator/)  
 Clone repository:
 ```bash 
